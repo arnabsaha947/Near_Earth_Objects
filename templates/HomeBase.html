@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <!-- semantic UI -->
+        <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.14/semantic.min.css">
+        <!--Chart js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" integrity="sha256-Uv9BNBucvCPipKQ2NS9wYpJmi8DTOEfTA/nH2aoJALw=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css" integrity="sha256-aa0xaJgmK/X74WM224KMQeNQC2xYKwlAt08oZqjeF0E=" crossorigin="anonymous" />
+        <script src="static/JsFiles/homeJS.js"></script>
+        <style>
+            .HomebaseNav{
+                text-align: center;
+                box-shadow:0px 5px 5px grey;
+                margin-bottom: 2%;
+                padding: 10px;
+            }
+        </style>
+    </head>
+
+    <body onload="Homefun()" >
+        <header >            
+            <h1 style="text-align: center;font-weight:bolder;"> <img src="static/images/logo.jpg" alt="LOGO" style="width: 8%;"> NEO STATS </h1>
+            
+        </header>
+        <!--<div class="HomebaseNav">
+            <a id="anchor-Home" style="cursor: pointer;font-weight:bolder;" onclick="Homefun()"> Home </a>
+            <a id="anchor-astroid" style="margin-left: 50px;cursor:pointer;font-weight:bolder;" onclick="astroidsfun()"> Number-Of-Astroids </a>
+            <a id="anchor-nearest" style="margin-left: 50px;cursor:pointer;font-weight:bolder;" onclick="nearestfun()"> Nearest-Astroids </a>
+            <a id="anchor-fastest" style="margin-left: 50px;cursor:pointer;font-weight:bolder;" onclick="fastestfun()"> Fastest-Astroid </a>
+        </div>-->
+        <nav class="navbar navbar-default" style="box-shadow: 0px 5px 5px grey;">
+            <div class="container-fluid">
+              
+              <ul class="nav navbar-nav">
+                <li ><a id="anchor-Home" style="cursor: pointer;font-weight:bolder;" onclick="Homefun()" >Home</a></li>
+                <li><a id="anchor-astroid" style="margin-left: 50px;cursor:pointer;font-weight:bolder;" onclick="astroidsfun()" > Number-Of-Astroids</a></li>
+                <li><a id="anchor-nearest" style="margin-left: 50px;cursor:pointer;font-weight:bolder;" onclick="nearestfun()" >Nearest-Astroids</a></li>
+                <li><a id="anchor-fastest" style="margin-left: 50px;cursor:pointer;font-weight:bolder;" onclick="fastestfun()" >Fastest-Astroid</a></li>
+              </ul>
+            </div>
+        </nav>
+        
+        <div id="replacediv" style="margin-bottom: 10px;" > asdfghjkl </div>
+
+        <footer style="text-align: center; font-weight:bolder;margin-bottom:20px;">
+            Copyright &copy; Saha-N-Saha 2020
+        </footer>
+
+    </body>
+</html>

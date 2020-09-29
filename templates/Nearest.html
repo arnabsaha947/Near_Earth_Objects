@@ -1,0 +1,35 @@
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <div class="container" style="margin-top: 10px;">
+            <h2>Nearest Astroid</h2>
+            <form class="form-horizontal" >
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="startdate">Start Date : </label>
+                <div class="col-sm-10">
+                  <input type="date" class="form-control" id="startdate"  name="startdate" style="width: 50%;">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="enddate">End Date : </label>
+                <div class="col-sm-10">          
+                  <input type="date" class="form-control" id="enddate"  name="enddate" style="width: 50%;">
+                </div>
+              </div>
+              
+            </form>
+
+            <button class="btn btn-default" style="background-color: green;color:white;" onclick="submit(this,2)" >Submit</button>          
+          </div>
+
+          <div style="text-align: center;max-width:70%; " id="astro-result">
+            <strong> Your Result Displays Here: </strong>
+            <canvas id="barChart2" style="text-align: center;"></canvas>
+          </div>
+
+    </body>
+</html>
