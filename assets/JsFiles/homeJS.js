@@ -58,13 +58,10 @@ function submit(e,s){debugger;
     var diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
     var obj,comets={},flag=0 ;
     //alert(startdate+" "+enddate);
-    /*if(diffDays<=7){
+    if(diffDays<=7){
         flag=1;
     }
-    else{
-        alert("The Range of date must be atmost 7 days");
-    }*/
-
+    
     if(startdate=="" || enddate==""){
         alert("Please select a start date and an end date !!!!");
     }
