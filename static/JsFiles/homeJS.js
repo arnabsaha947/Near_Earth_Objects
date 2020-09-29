@@ -61,10 +61,7 @@ function submit(e,s){debugger;
     if(diffDays<=7){
         flag=1;
     }
-    /*else{
-        alert("The Range of date must be atmost 7 days");
-    }*/
-
+    
     if(startdate=="" || enddate==""){
         alert("Please select a start date and an end date !!!!");
     }
