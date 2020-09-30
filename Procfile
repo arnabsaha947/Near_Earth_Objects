@@ -1,1 +1,1 @@
-web: gunicorn Near_Earth_Objects.wsgi
+web: gunicorn NasaCommets.wsgi
