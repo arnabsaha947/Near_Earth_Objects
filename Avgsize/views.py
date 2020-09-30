@@ -3,12 +3,14 @@ import json
 import requests
 from django.views.decorators.csrf import csrf_exempt
 from django.http import HttpResponse, JsonResponse
+
 # Create your views here.
-def astroids(request):
-    return render(request,"Astroids.html")
+def avgsize(request):
+    return render(request,"Avgsize.html")
 
 @csrf_exempt
-def astroidspython(request):
+def avgpython(request):
+    jlist=[]
     data = json.loads(request.body)
     startdate = data['startdate']
     enddate = data['enddate']
@@ -19,3 +21,4 @@ def astroidspython(request):
     response = requests.get(url)
     #print(response.json())
     return JsonResponse({'response':response.json()})
+    

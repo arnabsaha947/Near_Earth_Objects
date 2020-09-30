@@ -3,5 +3,6 @@ from django.urls import path,include
 from . import views
 
 urlpatterns = [
-    path('' , views.Fastest , name="Fastest"),    
+    path('' , views.avgsize , name="averagesize"),
+        
 ]
