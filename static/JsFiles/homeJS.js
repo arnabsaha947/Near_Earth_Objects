@@ -96,7 +96,7 @@ function submit(e,s){debugger;
                 //alert(this.responseText);
                 jsonResponse = JSON.parse(this.responseText);
                 comets = jsonResponse.response.near_earth_objects;
-                alert(comets)
+                //alert(comets)
                 l = (Object.keys(comets)).length;
                 astroidsubmit(comets,l);          
                 
@@ -114,7 +114,7 @@ function submit(e,s){debugger;
                 //alert(this.responseText);
                 jsonResponse = JSON.parse(this.responseText);
                 comets = jsonResponse.response.near_earth_objects;
-                alert(comets)
+                //alert(comets)
                 l = (Object.keys(comets)).length;
                 nearestsubmit(comets,l);          
                 
@@ -132,7 +132,7 @@ function submit(e,s){debugger;
                 //alert(this.responseText);
                 jsonResponse = JSON.parse(this.responseText);
                 comets = jsonResponse.response.near_earth_objects;
-                alert(comets)
+                //alert(comets)
                 l = (Object.keys(comets)).length;
                 fastestsubmit(comets,l);          
                 
@@ -150,7 +150,7 @@ function submit(e,s){debugger;
                 //alert(this.responseText);
                 jsonResponse = JSON.parse(this.responseText);
                 comets = jsonResponse.response.near_earth_objects;
-                alert(comets)
+                //alert(comets)
                 l = (Object.keys(comets)).length;
                 avgsubmit(comets,l)             
                 
